@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+@font-face {
+  font-family: Bernadette;
+  src: url("../font/Bernadette 400.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.one__block {
+  background: url("../img/one.png") 100% 100% no-repeat;
+  background-size: cover;
+  height: 821px;
+  background-position-x: center;
+}
+
+.one__block div {
+  text-align: right;
+  padding: 46px 40px 0 0;
+}
+
+.one__block div a {
+  margin-right: 20px;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.one__block div a:hover {
+  color: #f1d4ab;
+}
+
+.one__block h1 {
+  font-size: 100px;
+  color: white;
+  font-family: Bernadette;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.one__block h3 {
+  color: white;
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+  margin: 35px 0 35px 0;
+}
+
+.a__one__block {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.one__block__p {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 16px;
+  max-width: 625px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.one__block__button {
+  text-decoration: none;
+  color: black;
+  padding: 13px;
+  background-color: white;
+  max-width: 145px;
+  text-align: center;
+  display: block;
+  border-radius: 35px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 30px auto 0 auto;
+}
