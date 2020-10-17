@@ -27,6 +27,6 @@ function burger(){
 		elBody.classList.add('lock');
 	}
 }
-burger1.onclick = burger;
+checkbox1.onclick = burger;
 but.onclick = reze3;
 
