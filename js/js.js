@@ -1,32 +1,29 @@
-// document.getElementById('but').onclick = func1();
-function reze() {
-	let element = document.getElementById('but');
-	element.classList.add("geroi");
-}
-function reze1(){
-	let element = document.getElementById('but');
-	element.classList.remove("geroi")
-}
-function reze3(){
-	let element = document.getElementById('but');
-	if (element.classList.contains('geroi')){
-		reze1();
-	}else{
-		reze();
-	}
-}
+// let element = document.getElementById('menu');
+// $(document).ready(function() {
+// 	 $('.checkbox1').click(function(event){
+// 		 $('.burger__menu1').toggleClass('burger__menu__off');
+// 		 $('body').toggleClass('lock');
+	
+// 	 });
+//  });
+//  $('.checkbox1').click(function(event) {
+// 	$('.burger__menu1').removeClass('active');
+// 	$('body').removeClass('.lock');
+// })
 
 function burger(){
 	let elBody = document.getElementById('body');
 	let element = document.getElementById('menu');
 	if(element.classList.contains('burger__menu__off')){
 		element.classList.remove('burger__menu__off');
-		elBody.classList.remove('lock');
+		 elBody.classList.remove('lock');
+		 
 	}else{
 		element.classList.add('burger__menu__off');
-		elBody.classList.add('lock');
+		 elBody.classList.add('lock');
+
 	}
 }
 checkbox1.onclick = burger;
-but.onclick = reze3;
+
 
