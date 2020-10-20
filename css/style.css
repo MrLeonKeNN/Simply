@@ -2,6 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
+@font-face {
+  font-family: Bernadette;
+  src: url("../font/Bernadette 400.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -497,7 +502,7 @@ h6 {
 .cont44 {
   width: 40%;
   height: 636px;
-  background: url("/img/PLace your image.jpg") 100% 100% no-repeat;
+  background: url("../img/PLace your image.jpg") 100% 100% no-repeat;
   background-size: cover;
   margin: 0 0 0 0;
 }
