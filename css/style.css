@@ -826,7 +826,7 @@ h6 {
 
 .block7__div2__div {
   height: 600px;
-  max-width: 380px;
+  width: 380px;
   background-image: linear-gradient(135deg, #de813c 0%, #3f519a 100%);
   margin-left: -1.7%;
   margin-right: 20px;
@@ -899,7 +899,7 @@ h6 {
 }
 
 .eight__block {
-  height: 388px;
+  height: 450px;
   background: url("../img//Cre1.jpg") 100% 100% no-repeat;
   background-size: cover;
 }
@@ -916,6 +916,7 @@ h6 {
 .eight__block > div {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .block8__div {
@@ -926,6 +927,7 @@ h6 {
   background: transparent;
   border-radius: 50%;
   margin-right: 20px;
+  margin-bottom: 5px;
   border: 1px solid white;
 }
 
@@ -968,10 +970,13 @@ footer {
   height: 100%;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .div2__footer {
   display: flex;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .div2__footer i {
@@ -1164,6 +1169,7 @@ footer {
   }
 
   .container8__2div {
+    width: 90%;
     flex-direction: column;
   }
 
@@ -1267,6 +1273,20 @@ footer {
   }
 }
 
+@media (max-width: 650px) {
+  .block7__div2 {
+    width: 85%;
+  }
+
+  .block7__div2__div {
+    width: 90%;
+  }
+
+  .block7__div2__div2 {
+    width: 85%;
+  }
+}
+
 @media (max-width: 600px) {
   .block6__fonticon {
     display: flex;
@@ -1283,5 +1303,11 @@ footer {
   .container8__2div > div a .fa-3x {
     font-size: 2em;
     padding: 10px 0 0 10px;
+  }
+}
+
+@media (max-width: 426px) {
+  .footer__end {
+    margin-top: 140px;
   }
 }
